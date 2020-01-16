@@ -1,3 +1,6 @@
+Ejericio resuelto.
+Consigna: https://github.com/malerey/62-ejercicio-extra-2/
+
 ## Recorrer objetos: ejercicio extra 2
 
 - Esta es una galeria de imagenes hecha con HTML y CSS. 

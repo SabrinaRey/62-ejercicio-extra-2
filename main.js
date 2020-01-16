@@ -24,6 +24,19 @@ const imagesAsObjects = [
     img: "https://www.w3schools.com/css/img_mountains.jpg"
   }
 ]
+
+let acumuladoraCards = "";
+
+for (let i = 0; i < imagesAsObjects.length; i++) {
+  acumuladoraCards += `<div class="card">
+  <img src=${imagesAsObjects[i].img} alt=${imagesAsObjects[i].title}>
+<div class="desc">${imagesAsObjects[i].title}</div>
+</div>`;
+}
+
+const containerHtml = document.getElementById("container");
+
+containerHtml.innerHTML = acumuladoraCards;
   
   
   
